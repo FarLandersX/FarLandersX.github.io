@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+}
+
+.game-button {
+    display: inline-block;
+    padding: 30px 60px;
+    margin: 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    background-size: cover;
+}
+
+.game-button:hover {
+    transform: scale(1.1);
+}
+
+.game-button.plinko {
+    background: url('images/plinko.jpg') no-repeat center center;
+}
+
+.game-button.carhunt {
+    background: url('images/carhunt.jpg') no-repeat center center;
+}
+
+.game-button.lanerunner {
+    background: url('images/lanerunner.jpg') no-repeat center center;
+}
+
+.game-button.flappyplane {
+    background: url('images/flappyplane.jpg') no-repeat center center;
+}
+
+.game-button.bounceit {
+    background: url('images/bounceit.jpg') no-repeat center center;
+}
+
+.game-button.sprunki {
+    background: url('images/sprunki.jpg') no-repeat center center;
+}
+
+.game-button.minecraft2d {
+    background: url('images/Minecraft2D.jpg') no-repeat center center;
+}
+
+.game-button.sprunkia {
+    background: url('images/sprunkibutinfected.jpg') no-repeat center center;
+}
+
+.game-button.runawaytowin {
+    background: url('images/runawaytowin.png') no-repeat center center;
+}
+
+/* New game button (Death...) */
+.game-button.death {
+    background: url('images/blood.jpg') no-repeat center center;
+}
+
+.game-button.chatapp {
+    background: url('images/background.jpg') no-repeat center center;
+}
+
+.game-button.tictactoe {
+    background: url('images/background.jpg') no-repeat center center;
+}
+
+.game-button.geometry {
+    background: url('images/geometry.png') no-repeat center center;
+}

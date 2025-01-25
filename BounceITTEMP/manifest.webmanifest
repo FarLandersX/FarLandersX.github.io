@@ -1,0 +1,12 @@
+{
+  "name": "BounceIT",
+  "short_name": "BounceIT",
+  "id": "com.example.bouncePuzzle",
+  "description": "A multiplayer puzzle game where you have to place obstacles to make the ball bounce and reach the goal.",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

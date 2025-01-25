@@ -1,0 +1,27 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; /* Apply the Google Font */
+}
+
+header, footer {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  height: calc(100% - 140px); /* Adjust this value if needed */
+  width: 100%;
+}
+
+.full-screen-iframe {
+  flex-grow: 1;
+  border: none;
+}
